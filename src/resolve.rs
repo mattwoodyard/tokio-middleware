@@ -27,7 +27,7 @@ impl Resolver {
 
 #[derive(Clone, Debug)]
 pub struct SocketAddrs {
-    addrs: Vec<SocketAddr>
+    pub addrs: Vec<SocketAddr>
 }
 
 impl Service for Resolver {
