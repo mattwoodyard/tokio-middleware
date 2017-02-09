@@ -31,4 +31,4 @@ mod resolve;
 
 pub use log::Log;
 pub use timeout::Timeout;
-pub use resolve::Resolver;
+pub use resolve::{Resolver, SocketAddrs};
